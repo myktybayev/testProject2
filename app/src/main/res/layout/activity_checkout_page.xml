@@ -43,7 +43,7 @@
                     tools:context=".MainActivity">
 
                     <ImageView
-                        android:id="@+id/tamak1"
+                        android:id="@+id/tamak1_suret"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/type_1_01" />
@@ -114,6 +114,7 @@
                     tools:context=".MainActivity">
 
                     <ImageView
+                        android:id="@+id/tamak2_suret"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/type_1_01" />

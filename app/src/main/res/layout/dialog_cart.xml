@@ -64,12 +64,13 @@
                 android:orientation="vertical">
 
                 <LinearLayout
+                    android:id="@+id/tamak1_layout"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     tools:context=".MainActivity">
 
                     <ImageView
-                        android:id="@+id/tamak1"
+                        android:id="@+id/tamak1_suret"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/type_1_01" />
@@ -149,12 +150,13 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/tamak2_layout"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     tools:context=".MainActivity">
 
                     <ImageView
-                        android:id="@+id/tamak2"
+                        android:id="@+id/tamak2_suret"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/type_1_01" />
@@ -232,12 +234,13 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/tamak3_layout"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     tools:context=".MainActivity">
 
                     <ImageView
-                        android:id="@+id/tamak3"
+                        android:id="@+id/tamak3_suret"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:src="@drawable/type_1_01" />
@@ -315,6 +318,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/tamak4_layout"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     tools:context=".MainActivity">
@@ -398,6 +402,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/tamak5_layout"
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     tools:context=".MainActivity">

@@ -1,5 +1,7 @@
 package kz.worldskills.a202;
 
+import java.util.ArrayList;
+
 public class Food {
     String name;
     String price;
@@ -7,6 +9,8 @@ public class Food {
     String type_id;
     String score;
     int image_url;
+
+    public static ArrayList<Food> cardFoods = new ArrayList<>();
 
     public Food(String name, String price, String remark, String type_id, String score, int image_url) {
         this.name = name;
